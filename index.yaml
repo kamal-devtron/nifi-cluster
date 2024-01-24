@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  nifi-cluster:
+  - apiVersion: v2
+    appVersion: 1.24.0
+    created: "2024-01-24T14:00:23.294126+05:30"
+    dependencies:
+    - condition: zookeeper.enabled
+      name: zookeeper
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.4.0
+    description: A Helm chart for deploying NiFi clusters in Kubernetes
+    digest: b4c148ca99db02f4087ea432379c198fc090be2cc502e38e3ca4fe34677d3971
+    home: https://github.com/konpyutaika/nifikop
+    icon: https://konpyutaika.github.io/nifikop/img/nifikop.png
+    keywords:
+    - nifi
+    - nifikop
+    - data
+    - nifi-cluster
+    name: nifi-cluster
+    sources:
+    - https://github.com/konpyutaika/nifikop
+    type: application
+    urls:
+    - nifi-cluster-1.6.0.tgz
+    version: 1.6.0
+generated: "2024-01-24T14:00:23.28929+05:30"
